@@ -4,27 +4,19 @@
 
 This is a simple scheduling making website made in django. To kickstart your journey in django you can go for this project in your learning phase of django.
 
-![Default Home View](__screenshots/index.png?raw=true "Title")
+![Default Home View](screenshots/Index.PNG "Title")
 
 ### Main features
 
-* Separated dev and production settings
+* Register and Login so that only you can see your appointments
 
-* Example app with custom user model
+* Schedule Your Important Thing to do
 
-* Bootstrap static files included
+* Easy to check your appointments
 
-* User registration and logging in as demo
+* Futute Enchancement: Email Alert System
 
-* Procfile for easy deployments
 
-* Separated requirements files
-
-* SQLite by default if no env variable is set
-
-# Usage
-
-To use this template to start your own project:
 
 ### Existing virtualenv
 
@@ -35,14 +27,11 @@ If your project is already in an existing python3 virtualenv first install djang
 And then run the `django-admin.py` command to start the new project:
 
     $ django-admin.py startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
+      --template=https://github.com/abhi526691/ScheduleMaker \
       --extension=py,md \
-      <project_name>
+      <ScheduleMaker>
       
 ### No virtualenv
-
-This assumes that `python3` is linked to valid installation of python 3 and that `pip` is installed and `pip3`is valid
-for installing python 3 packages.
 
 Installing inside virtualenv is recommended, however you can start your project without virtualenv too.
 
@@ -53,23 +42,23 @@ If you don't have django installed for python 3 then run:
 And then:
 
     $ python3 -m django startproject \
-      --template=https://github.com/nikola-k/django-template/zipball/master \
+      --template=https://github.com/abhi526691/ScheduleMaker \
       --extension=py,md \
-      <project_name>
+      <ScheduleMaker>
       
       
 After that just install the local dependencies, run migrations, and start the server.
 
 {% endif %}
 
-# {{ project_name|title }}
+# ScheduleMaker
 
 # Getting Started
 
 First clone the repository from Github and switch to the new directory:
 
-    $ git clone git@github.com/USERNAME/{{ project_name }}.git
-    $ cd {{ project_name }}
+    $ git clone git@https://github.com/abhi526691/ScheduleMaker{{ ScheduleMaker }}.git
+    $ cd {{ ScheduleMaker }}
     
 Activate the virtualenv for your project.
     
