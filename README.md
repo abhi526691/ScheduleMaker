@@ -80,6 +80,6 @@ You can now run the development server:
 <!-- CONTACT -->
 ## Contact
 
-Abhishek Pandey - [linkedin](https://www.linkedin.com/in/abhishek-pandey-1515aa171/) - sauravpandey597@gmail.com
+Abhishek Pandey - [linkedin](https://www.linkedin.com/in/abhishek-pandey-1515aa171/) - abhi526691shek@gmail.com
 
 Project Link: [https://github.com/abhi526691/ScheduleMaker/](https://github.com/abhi526691/ScheduleMaker/)
